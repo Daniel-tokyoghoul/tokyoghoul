@@ -9,14 +9,14 @@ CREATE TABLE IF NOT EXISTS Personajes (
     PRIMARY KEY (id)
 );
 
-insert into Personajes (name, age, gender, species) values 
-    ('Yuji Itadori','16','masculino','humano'),
-    ('Megumi Fushiguro','15','masculino', 'humano' ),
-    ('Nobara Kugisaki','15','Femenino', 'humano' ),
-    ('Satoru Gojo','15','masculino', 'humano' ),
-    ('Sukuna','28','masculino', 'Rey Demonio' ),
-    ('Junpei Yoshino','2000','masculino', 'humano' ),
-    ('Maki Zenin','15','Femenino', 'Homano' ),
-    ('Toge Inumaki','15','masculino', 'humano' ),
-    ('Panda','1000','Indefinodo', 'Oso Panda' ),
-    ('jogo','1000','masculino', 'Rey Demonio');
+INSERT INTO Personajes (name, age, gender, species) VALUES 
+    ('Ken Kaneki', '19', 'Masculino', 'Ghoul'),
+    ('Touka Kirishima', '18', 'Femenino', 'Ghoul'),
+    ('Rize Kamishiro', '19', 'Femenino', 'Ghoul'),
+    ('Yoshimura', '100', 'Masculino', 'Ghoul'),
+    ('Kishou Arima', '30', 'Masculino', 'Humano'),
+    ('Nishiki Nishio', '21', 'Masculino', 'Ghoul'),
+    ('Marude', '40', 'Masculino', 'Humano'),
+    ('Amon Koutarou', '27', 'Masculino', 'Humano'),
+    ('Hikari Kirishima', '25', 'Femenino', 'Ghoul'),
+    ('Hatsune Miku', '16', 'Femenino', 'Humano');

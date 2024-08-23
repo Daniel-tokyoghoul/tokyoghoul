@@ -1,6 +1,6 @@
 const express = require('express')
 const {body, validationResult} = require('express-validator')
-const db = require('./repository/repopersonajes')
+const db = require('./repository/repoghouls')
 const app = express()
 const port = 3000
 
